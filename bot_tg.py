@@ -3,7 +3,7 @@ from telebot import types
 import calendar
 from datetime import datetime
 
-bot = telebot.TeleBot('8017118025:AAHb_hxP6N0ffLELWMj0riXGIlpMAZ7erz4')
+bot = telebot.TeleBot('7790224050:AAHJuQUepi3R2JyWjZ47HMCb9eTvA7B8hlY')
 
 # Видалити webhook перед start_polling
 bot.remove_webhook()
