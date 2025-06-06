@@ -3,11 +3,9 @@ from telebot import types
 import calendar
 from datetime import datetime
 
-bot = telebot.TeleBot('7790224050:AAHJuQUepi3R2JyWjZ47HMCb9eTvA7B8hlY')
+bot = telebot.TeleBot('your token')
 
-# Видалити webhook перед start_polling
-bot.remove_webhook()
-bot.polling()
+
 calen = {}  # date -> list of (start, end, user)
 user_state = {}  # Stores user's selected date and times
 
