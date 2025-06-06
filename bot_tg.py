@@ -5,6 +5,9 @@ from datetime import datetime
 
 bot = telebot.TeleBot('8017118025:AAHb_hxP6N0ffLELWMj0riXGIlpMAZ7erz4')
 
+# Видалити webhook перед start_polling
+bot.remove_webhook()
+bot.polling()
 calen = {}  # date -> list of (start, end, user)
 user_state = {}  # Stores user's selected date and times
 
